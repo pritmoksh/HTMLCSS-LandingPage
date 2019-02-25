@@ -155,7 +155,7 @@ section {
 }
 
 .hero {
-    background-image: url("img/hero.jpg");
+    background-image: url("/img/hero.jpg");
     height: 400px;
     background-size: cover;
     background-position:center center ;
@@ -233,7 +233,7 @@ section {
 }
 
 .category-text > h3 {
-    font-size: 30px;
+    font-size: 300px;
     font-weight: 700;
     line-height: 1;
 }
