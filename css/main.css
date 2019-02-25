@@ -155,7 +155,7 @@ section {
 }
 
 .hero {
-    background-image: url("img\hero.jpg");
+    background-image: url("img/hero.jpg");
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -171,7 +171,7 @@ section {
     color: #faa541;
 }
 
-.hero h1 h2 {
+.hero h1, .hero h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
@@ -200,11 +200,11 @@ section {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    line-break: 1;
+    line-height: 1;
     text-align: center;
 }
 
-.banner-text > :last-child {
+.banner-text > div:last-child {
     font-size: 16px;
     font-weight: 400;
     margin-top: 5px;
@@ -226,13 +226,13 @@ section {
     text-align: center;
 }
 
-.category-text  div {
+.category-text > div {
     font-size: 16px;
     font-weight: 200;
     color: #faa541;
 }
 
-.category-text  h3 {
+.category-text > h3 {
     font-size: 30px;
     font-weight: 700;
     line-height: 1;
