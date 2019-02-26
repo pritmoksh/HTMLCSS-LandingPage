@@ -248,7 +248,10 @@ section {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
-    border: 30px 03px 50px 50px;
+    top: 30px;
+    bottom: 30px;
+    left: 50px;
+    right: 50px;
     z-index: 1;
 }
 
